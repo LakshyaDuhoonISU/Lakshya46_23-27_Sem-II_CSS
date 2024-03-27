@@ -1,0 +1,44 @@
+<!-- Create a external style sheet named as “external_css.css” and provide
+some styles for h2, hr, p & a tags. Create an html file named as
+“4Style_sheet.html”
+• Include the external style sheet with necessary tag.
+• Include the internal style sheet for body tags & also
+use class name, so that the style can be
+applied for all tags.
+• Include a <p> tags with inline style sheet. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Different style sheets</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="external_css.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: aqua;
+        font-family: "Times New Roman", Times, serif;
+        text-align: center;
+        color: black;
+      }
+      .class1 {
+        font-family: "Courier New", Courier, monospace;
+        font-size: large;
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="class1">This is first heading.</h1>
+    <hr />
+    <h2>This is second heading.</h2>
+    <hr />
+    <p>This is a paragraph with external style sheet</p>
+    <hr />
+    <p style="font-family: 'Arial', sans-serif; color: blue">
+      This is a paragraph with inline style sheet
+    </p>
+    <hr />
+    <a href="https://www.google.com" target="_blank">Go to Google</a>
+    <hr />
+  </body>
+</html>

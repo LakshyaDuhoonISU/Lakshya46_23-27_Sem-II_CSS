@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Registration Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="bookstore.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: aqua;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Create a New Account</h1>
+    <nav class="flex-containers" id="home">
+      <a href="home.html" style="margin-right: 150px">HOME</a>
+      <a href="login.html" style="margin-left: 50px">LOGIN</a
+      ><br /><br /><br /><br />
+    </nav>
+    <form>
+      <fieldset>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required /><br /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+        /><br /><br />
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required /><br /><br />
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" required /><br /><br />
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" required></textarea><br /><br />
+        <input
+          type="submit"
+          value="Register"
+          style="width: 75px; height: 25px; background-color: greenyellow"
+        />
+      </fieldset>
+    </form>
+    <br /><br /><br />
+    <footer>
+      <p>Copyright © 2023 My Online Bookstore</p>
+    </footer>
+  </body>
+</html>

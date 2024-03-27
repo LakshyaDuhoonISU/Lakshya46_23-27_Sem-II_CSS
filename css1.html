@@ -1,0 +1,51 @@
+<!-- Design a web page using CSS (Cascading Style Sheets)
+which includes the following:
+1) Use different font, styles:
+In the style definition you define how each selector should work
+(font, color etc.). Then, in the body of your pages, you refer to
+these selectors to activate the styles. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Internal CSS</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        background-color: aqua;
+        text-align: center;
+        color: rgb(90, 84, 196);
+      }
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        color: black;
+      }
+      p {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
+        color: brown;
+      }
+      hr {
+        width: 550px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is first heading.</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum.
+    </p>
+    <hr />
+    This is a text outside the paragraph.
+  </body>
+</html>

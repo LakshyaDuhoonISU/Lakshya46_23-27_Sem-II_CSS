@@ -1,0 +1,65 @@
+<!-- Design the following static web pages required for an online
+book store web site.
+1) HOME PAGE: The static home page must contain three
+frames.
+2) LOGIN PAGE
+3) CATOLOGUE PAGE: The catalogue page should
+contain the details of all the books available in the web
+site in a table.
+4) REGISTRATION PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="bookstore.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: aqua;
+        text-align: left;
+      }
+      .xyz {
+        display: inline-block;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 style="text-align: center">Welcome to our Bookstore</h1>
+    </header>
+    <br />
+    <nav class="flex-container" id="home">
+      <a href="login.html" style="margin-right: 100px; margin-left: 100px"
+        >LOGIN</a
+      >
+      <a href="registration.html" style="margin-right: 100px">REGISTRATION</a>
+      <a href="catalogue.html">BROWSE OUR CATALOGUE</a>
+    </nav>
+    <br />
+    <h2>Featured Books</h2>
+    <div class="flex-container">
+      <img
+        align="left"
+        style="width: 350px"
+        src="https://media.istockphoto.com/id/949118068/photo/books.jpg?s=1024x1024&w=is&k=20&c=CDrLRc8X_JrFr-uDbNKrOKrmfIV_M2Af7z1Hb3cYEvY="
+        alt="book_img"
+      />
+      <ul>
+        <li>Art Of War</li>
+        <li>Harry Potter</li>
+        <li>Diary Of A Wimpy Kid</li>
+      </ul>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <footer>
+      <p style="text-align: center">Copyright © 2023 My Online Bookstore</p>
+    </footer>
+  </body>
+</html>

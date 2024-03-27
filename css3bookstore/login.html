@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="bookstore.css" rel="stylesheet" />
+    <style>
+      body {
+        background-color: aqua;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login to Your Account</h1>
+    <nav class="flex-containers" id="home">
+      <a href="home.html" style="margin-right: 150px">HOME</a>
+      <a href="registration.html" style="margin-left: 50px">REGISTER ACCOUNT</a>
+      <br /><br /><br /><br /><br />
+    </nav>
+    <form>
+      <fieldset>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required /><br /><br />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          required
+        /><br /><br />
+        <input
+          type="submit"
+          value="Login"
+          style="width: 75px; height: 25px; background-color: greenyellow"
+        />
+      </fieldset>
+    </form>
+    <br />
+    <footer>
+      <p style="text-align: center">Copyright © 2023 My Online Bookstore</p>
+    </footer>
+  </body>
+</html>
